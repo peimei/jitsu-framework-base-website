@@ -10,7 +10,7 @@ the business logic and knows how to persist themselves to a database. The
 controller handles the incoming requests (such as Save New Account, Update
 Product, Show Post) by manipulating the model and directing data to the view.
 
-In Rails, the model is handled by what's called an object-relational mapping
+In Rails, the model is handled by what is known as an object-relational mapping
 layer entitled Active Record. This layer allows you to present the data from
 database rows as objects and embellish these data objects with business logic
 methods. You can read more about Active Record in
