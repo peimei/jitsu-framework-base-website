@@ -5,7 +5,7 @@ needed to create database-backed web-applications according to the
 Model-View-Control pattern of separation. This pattern splits the view (also
 called the presentation) into "dumb" templates that are primarily responsible
 for inserting pre-built data in between HTML tags. The model contains the
-"smart" domain objects (such as Account, Product, Person, Post) that holds all
+"smart" domain objects (such as Account, Product, Person, Post) that hold all
 the business logic and knows how to persist themselves to a database. The
 controller handles the incoming requests (such as Save New Account, Update
 Product, Show Post) by manipulating the model and directing data to the view.
@@ -13,7 +13,7 @@ Product, Show Post) by manipulating the model and directing data to the view.
 In Rails, the model is handled by what's called an object-relational mapping
 layer entitled Active Record. This layer allows you to present the data from
 database rows as objects and embellish these data objects with business logic
-methods. You can read more about Active Record in
+methods. You can read more about Active Record at
 link:files/vendor/rails/activerecord/README.html.
 
 The controller and view are handled by the Action Pack, which handles both
