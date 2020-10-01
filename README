@@ -24,6 +24,9 @@ more separate. Each of these packages can be used independently outside of
 Rails.  You can read more about Action Pack in
 link:files/vendor/rails/actionpack/README.html.
 
+==What is the use of Ruby on Rails?
+The Rails framework helps developers to build websites and applications, because it abstracts and simplifies common repetitive tasks. 
+Rails is written in Ruby, the programming language which is also used alongside Rails. Ruby is to Rails as PHP is to Symfony and Zend, or as Python is to Django.
 
 == Getting Started
 
