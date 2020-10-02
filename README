@@ -1,4 +1,4 @@
-== Welcome to Rails
+== Welcome to Rails*
 
 Rails is a web-application and persistence framework that includes everything
 needed to create database-backed web-applications according to the
@@ -25,7 +25,7 @@ Rails.  You can read more about Action Pack in
 link:files/vendor/rails/actionpack/README.html.
 
 
-== Getting Started
+== Getting Started*
 
 1. At the command prompt, start a new Rails application using the <tt>rails</tt> command
    and your application name. Ex: rails myapp
@@ -35,7 +35,7 @@ link:files/vendor/rails/actionpack/README.html.
 4. Follow the guidelines to start developing your application
 
 
-== Web Servers
+== Web Servers*
 
 By default, Rails will try to use Mongrel and lighttpd if they are installed, otherwise
 Rails will use WEBrick, the webserver that ships with Ruby. When you run script/server,
@@ -62,7 +62,7 @@ Apache, LiteSpeed, IIS are just a few. For more information on FCGI,
 please visit: http://wiki.rubyonrails.com/rails/pages/FastCGI
 
 
-== Debugging Rails
+== Debugging Rails*
 
 Sometimes your application goes wrong.  Fortunately there are a lot of tools that
 will help you debug it and get it back on the rails.
@@ -98,7 +98,7 @@ These two online (and free) books will bring you up to speed on the Ruby languag
 and also on programming in general.
 
 
-== Debugger
+== Debugger*
 
 Debugger support is available through the debugger command when you start your Mongrel or
 Webrick server with --debugger. This means that you can break out of execution at any point
@@ -130,8 +130,7 @@ with a IRB prompt in the server window. Here you can do things like:
 Finally, when you're ready to resume execution, you enter "cont"
 
 
-== Console
-
+== Console*
 You can interact with the domain model by starting the console through <tt>script/console</tt>.
 Here you'll have all parts of the application configured, just like it is when the
 application is running. You can inspect domain models, change values, and save to the
@@ -141,7 +140,7 @@ Passing an argument will specify a different environment, like <tt>script/consol
 To reload your controllers and models after launching the console run <tt>reload!</tt>
 
 
-== Description of Contents
+== Description of Contents*
 
 app
   Holds all the code that's specific to this particular application.
